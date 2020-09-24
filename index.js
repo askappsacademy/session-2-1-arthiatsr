@@ -16,3 +16,13 @@ For extra credit, create a conditional that executes a message if the sum is ove
 ********************/
 
 // Your Solution:
+function sum(a, b){
+  return a+b;
+}
+var res = sum(11,5);
+if(res>10){
+  console.log("Sum is greater than 10: "+ res);
+}else{
+  console.log("Sum is less than 10: "+ res);  
+}
+
